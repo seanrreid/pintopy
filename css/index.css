@@ -31,3 +31,25 @@ header {
     height: 100%;
     width: 100%;
 }
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.image-list li {
+    flex-basis: 274px;
+    flex-grow: 1;
+    flex-shrink: 0; 
+    max-width: 320px;   
+    position: relative;
+    width: 100%;
+}
+
+.image-list li img {
+    width: 100%;
+}
+
